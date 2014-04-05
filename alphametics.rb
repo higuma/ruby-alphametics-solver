@@ -21,6 +21,6 @@ if __FILE__ == $PROGRAM_NAME
   include Alphametics
   ARGV.each do |arg|
     puts arg
-    puts AlphabeticsSolver.solve(arg)
+    puts solve(arg)
   end
 end

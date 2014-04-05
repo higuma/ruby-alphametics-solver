@@ -19,9 +19,11 @@ SEND + MORE == MONEY
 $ ruby alphametics.rb 'HAWAII + IDAHO + IOWA + OHIO == STATES'
 HAWAII + IDAHO + IOWA + OHIO == STATES
 510199 + 98153 + 9301 + 3593 == 621246
-$ ruby alphametics.rb 'PI * R ** 2 == AREA'
+$ ruby alphametics.rb 'PI * R ** 2 == AREA' 'NORTH / SOUTH == EAST / WEST'
 PI * R ** 2 == AREA
 96 * 7 ** 2 == 4704
+NORTH / SOUTH == EAST / WEST
+10567 / 20867 == 3926 / 4326
 ```
 
 ## Testing/Benchmark

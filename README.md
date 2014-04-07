@@ -36,7 +36,7 @@ MALCOLM + X == MALCOLM
 
 ## Testing/Benchmark
 
-Python sources are taken from Dive Into Python 3 repositry.
+Python sources are taken from Dive Into Python 3 repository.
 
 <https://github.com/diveintomark/diveintopython3/blob/master/examples/alphametics.py>
 

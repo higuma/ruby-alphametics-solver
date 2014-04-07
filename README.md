@@ -42,7 +42,7 @@ Python sources are taken from Dive Into Python 3 repository.
 
 <https://github.com/diveintomark/diveintopython3/blob/master/examples/alphameticstest.py>
 
-The specification of `alphametics_test.rb` is the same as `alphameticstest.py`.
+The specification of `alphametics_test.rb` is identical to `alphameticstest.py`.
 
 ```
 $ python3 alphameticstest.py    # Python3 (borrowed from Dive Into Python 3)

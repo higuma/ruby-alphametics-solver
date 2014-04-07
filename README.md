@@ -8,7 +8,7 @@ I found an interesting alphametics puzzle solver from [Dive Into Python 3](http:
 > 
 > * Alphametics solver (Python recipe): <http://code.activestate.com/recipes/576615/>
 
-I was inspired from the book and made a ruby version `alphametics.rb`. I also made a testing `alphametics_test.rb`, which is the same spec as `alphameticstest.py` (from Dive Into Python 3).
+I was inspired from the book and made a ruby version.
 
 ## Examples
 
@@ -26,6 +26,14 @@ NORTH / SOUTH == EAST / WEST
 10567 / 20867 == 3926 / 4326
 ```
 
+Allows standalone zero for a solution (original python source does not).
+
+```
+$ ruby alphametics.rb 'MALCOLM + X == MALCOLM'
+MALCOLM + X == MALCOLM
+1234531 + 0 == 1234531
+```
+
 ## Testing/Benchmark
 
 Python sources are taken from Dive Into Python 3 repositry.
@@ -33,6 +41,8 @@ Python sources are taken from Dive Into Python 3 repositry.
 <https://github.com/diveintomark/diveintopython3/blob/master/examples/alphametics.py>
 
 <https://github.com/diveintomark/diveintopython3/blob/master/examples/alphameticstest.py>
+
+The specification of `alphametics_test.rb` is the same as `alphameticstest.py`.
 
 ```
 $ python3 alphameticstest.py    # Python3 (borrowed from Dive Into Python 3)

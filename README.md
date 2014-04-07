@@ -8,7 +8,7 @@ I found an interesting alphametics puzzle solver from [Dive Into Python 3](http:
 > 
 > * Alphametics solver (Python recipe): <http://code.activestate.com/recipes/576615/>
 
-I was inspired from the book and made a ruby version `alphametics.rb`. I also made a testing `alphametics_test.rb`, which is the same spec as `alphameticstest.py` (borrowed from Dive Into Python 3).
+I was inspired from the book and made a ruby version `alphametics.rb`. I also made a testing `alphametics_test.rb`, which is the same spec as `alphameticstest.py` (from Dive Into Python 3).
 
 ## Examples
 
@@ -27,6 +27,12 @@ NORTH / SOUTH == EAST / WEST
 ```
 
 ## Testing/Benchmark
+
+Python sources are taken from Dive Into Python 3 repositry.
+
+<https://github.com/diveintomark/diveintopython3/blob/master/examples/alphametics.py>
+
+<https://github.com/diveintomark/diveintopython3/blob/master/examples/alphameticstest.py>
 
 ```
 $ python3 alphameticstest.py    # Python3 (borrowed from Dive Into Python 3)

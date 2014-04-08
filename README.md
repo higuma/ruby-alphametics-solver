@@ -23,7 +23,7 @@ $ ruby alphametics.rb 'PI * R ** 2 == AREA' 'NORTH / SOUTH == EAST / WEST'
 PI * R ** 2 == AREA
 96 * 7 ** 2 == 4704
 NORTH / SOUTH == EAST / WEST
-10567 / 20867 == 3926 / 4326
+51304 / 61904 == 7260 / 8760
 ```
 
 Allows standalone zero for a solution (original python source does not).

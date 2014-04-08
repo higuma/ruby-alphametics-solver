@@ -1,4 +1,5 @@
 require 'set'
+require 'mathn'
 
 module Alphametics
   def solve(puzzle)

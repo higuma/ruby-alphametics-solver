@@ -2,6 +2,7 @@ require 'set'
 
 module Alphametics
   def solve(puzzle)
+    puzzle = puzzle.upcase
     words = puzzle.scan /[A-Z]+/
     chars = Set.new words.join.each_char
     abort 'Too many letters' if chars.size > 10
@@ -20,7 +21,6 @@ end
 if __FILE__ == $PROGRAM_NAME
   include Alphametics
   ARGV.each do |arg|
-    arg = arg.upcase
     puts arg
     solution = solve arg
     puts solution if solution

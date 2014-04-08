@@ -9,7 +9,7 @@ module Alphametics
     first_chars = Set.new words.select {|w| w.size > 1 }.map {|w| w[0] }
     sorted_chars = first_chars.to_a.join + (chars - first_chars).to_a.join
     n = first_chars.size
-    %w[0 1 2 3 4 5 6 7 8 9].permutation(chars.size).each do |guess|
+    (0..9).map {|x| x.to_s }.permutation(chars.size).each do |guess|
       next if guess[0, n].member? '0'
       expr = puzzle.tr sorted_chars, guess.join
       return expr if eval expr
